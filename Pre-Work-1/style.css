@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  top: 100px;
+  
+}
+
+.nav, .aside {
+  background-color: lightblue;
+  margin: 0 auto;
+  padding: 250px 250px;
+}
+
+section {
+  background-color: gray;
+  margin: 0 auto;
+  padding: 250px 250px;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
